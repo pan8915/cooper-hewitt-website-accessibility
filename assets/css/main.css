@@ -2109,13 +2109,13 @@
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: ##f6582f;
+		color: #ff4d26;
 		text-decoration: none;
 	}
 
 		a:hover {
-			border-bottom-color: #f6582f;
-			color: #f6582f !important;
+			border-bottom-color: #000000;
+			color: #000000 !important;
 		}
 
 			a:hover strong {
@@ -2284,7 +2284,7 @@
 	}
 
 	header.major > :last-child {
-		border-bottom: solid 3px #f6582f;
+		border-bottom: solid 3px #ff4d26;
 		display: inline-block;
 		margin: 0 0 2em 0;
 		padding: 0 0.75em 0.5em 0;
@@ -2351,8 +2351,8 @@
 		input[type="url"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #f6582f;
-			box-shadow: 0 0 0 1px #f6582f;
+			border-color: #ff4d26;
+			box-shadow: 0 0 0 1px #ff4d26;
 		}
 
 	.select-wrapper {
@@ -2465,8 +2465,8 @@
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #f6582f;
-			box-shadow: 0 0 0 1px #f6582f;
+			border-color: #ff4d26;
+			box-shadow: 0 0 0 1px #ff4d26;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2539,12 +2539,12 @@
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
-			color:#F6582F;
+			color:#ff4d26;
 		}
 
 		.icon > .label {
 			display: none;
-			color:#F6582F;
+			color:#ff4d26;
 		}
 
 /* Image */
@@ -2703,7 +2703,7 @@
 				}
 
 				ul.contact li:before {
-					color: #f6582f;
+					color: #ff4d26;
 					display: inline-block;
 					font-size: 1.5em;
 					height: 1.125em;
@@ -2827,7 +2827,7 @@
 				}
 
 					ul.pagination li > .page.active {
-						background-color: #f6582f;
+						background-color: #ff4d26;
 						color: #ffffff !important;
 					}
 
@@ -2959,8 +2959,8 @@
 		background-color: transparent;
 		border-radius: 0.375em;
 		border: 0;
-		box-shadow: inset 0 0 0 2px #f6582f;
-		color: #f6582f !important;
+		box-shadow: inset 0 0 0 2px #ff4d26;
+		color: #ff4d26 !important;
 		cursor: pointer;
 		display: inline-block;
 		font-family: "Roboto Slab", serif;
@@ -3033,7 +3033,7 @@
 		input[type="button"].special,
 		button.special,
 		.button.special {
-			background-color: #f6582f;
+			background-color: #ff4d26;
 			box-shadow: none;
 			color: #ffffff !important;
 		}
@@ -3177,7 +3177,7 @@
 			}
 
 				.features article .icon:before {
-					color: #f6582f;
+					color: #ff4d26;
 					font-size: 2.75rem;
 					position: relative;
 					top: 0.05em;
@@ -3823,7 +3823,7 @@
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		border-bottom: solid 5px #f6582f;
+		border-bottom: solid 5px #ff4d26;
 		padding: 6em 0 1em 0;
 		position: relative;
 		background-color: black;
@@ -4019,7 +4019,7 @@
 		}
 
 			#menu ul a:hover, #menu ul span:hover {
-				color: #f6582f;
+				color: #ff4d26;
 			}
 
 			#menu ul a.opener, #menu ul span.opener {
@@ -4053,7 +4053,7 @@
 				}
 
 				#menu ul a.opener:hover:before, #menu ul span.opener:hover:before {
-					color: #f6582f;
+					color: #ff4d26;
 				}
 
 				#menu ul a.opener.active + ul, #menu ul span.opener.active + ul {
