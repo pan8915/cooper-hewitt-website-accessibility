@@ -1,13 +1,10 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic|Roboto+Slab:400,700");
 
-/*
-	Editorial by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
-/* Reset */
+@font-face {
+    font-family: Helvetica;
+    src: url(assets/fonts/sansation_light.woff);
+}
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
@@ -48,6 +45,9 @@
 		-webkit-text-size-adjust: none;
 	}
 
+  .nav-fixed{
+		position:relative;
+	}
 
 
 /* Box Model */
@@ -2102,6 +2102,10 @@
 			}
 
 		}
+	.mySlides{
+		width:auto;
+		height:auto;
+	}
 
 	a {
 		-moz-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
@@ -2137,7 +2141,7 @@
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #212121;
-		font-family: "Roboto Slab", serif;
+		font-family: "Helvetica", serif;
 		font-weight: 700;
 		line-height: 1.5;
 		margin: 0 0 1em 0;
@@ -2275,7 +2279,7 @@
 	}
 
 	header p {
-		font-family: "Roboto Slab", serif;
+		font-family: "Helvetica", serif;
 		font-size: 1em;
 		font-weight: 400;
 		letter-spacing: 0.075em;
@@ -2963,7 +2967,7 @@
 		color: #ff4d26 !important;
 		cursor: pointer;
 		display: inline-block;
-		font-family: "Roboto Slab", serif;
+		font-family: "Helvetica", serif;
 		font-size: 0.8em;
 		font-weight: 700;
 		height: 3.5em;
@@ -3840,7 +3844,7 @@
 		#header .logo {
 			border-bottom: 0;
 			color: inherit;
-			font-family: "Roboto Slab", serif;
+			font-family: "Helvetica", serif;
 			font-size: 1.125em;
 		}
 
@@ -4000,7 +4004,7 @@
 		-ms-user-select: none;
 		user-select: none;
 		color: #3d4449;
-		font-family: "Roboto Slab", serif;
+		font-family: "Helvetica", serif;
 		font-family: 400;
 		letter-spacing: 0.075em;
 		list-style: none;
